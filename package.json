@@ -37,8 +37,10 @@
     "karma-jspm": "^1.0.1"
   },
   "jspm": {
-    "dependencies": {
-      
+    "main": "index",
+    "format": "register",
+    "directories": {
+      "lib": "dist"
     }
   }
 }
